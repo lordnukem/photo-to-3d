@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Launcher: runs model3d.py with the project's Python environment (Pillow for the comparison sheets).
+set -euo pipefail
+here="$(cd "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")" && pwd)"
+home="${PHOTO3D_HOME:-$HOME/photo-to-3d}"
+py="$home/.venv/bin/python"
+if [ ! -x "$py" ]; then
+  echo "model3d: Python environment not found at $py (set PHOTO3D_HOME)" >&2
+  exit 3
+fi
+exec "$py" "$here/model3d.py" "$@"

@@ -1,0 +1,12 @@
+1794787114 2026-11-16T07:58:34+08:00 start: request received, model folder created
+1794787329 2026-11-16T08:02:09+08:00 analysis done: photos studied, scale found (web), notes.md written
+1794787396 2026-11-16T08:03:16+08:00 build.py v1 written; library extended (text_mesh, STL print export)
+1794787528 2026-11-16T08:05:28+08:00 geometry ok: 4 printable parts, each one closed solid (2 bugs found by the checks and fixed)
+1794787662 2026-11-16T08:07:42+08:00 round 1 preview rendered
+1794787700 2026-11-16T08:08:20+08:00 round 1 compared; round 2 changes: base wider, rear bars radial, more bars
+1794787860 2026-11-16T08:11:00+08:00 round 2 preview rendered
+1794787877 2026-11-16T08:11:17+08:00 round 2 accepted; final renders started (5 views)
+1794787911 2026-11-16T08:11:51+08:00 final render stopped after 31 s: rotor axle overlapped the rear hub (assembly fit); fixed
+1794787952 2026-11-16T08:12:32+08:00 final renders restarted (5 views)
+1794789275 2026-11-16T08:34:35+08:00 final renders done
+1794789436 2026-11-16T08:37:16+08:00 delivered to the user
